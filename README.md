@@ -1,12 +1,7 @@
-Marry Me
+Ringed Together
 ====
 
-BaseKit wedding template marry-me for .Vegas website
+BaseKit wedding template ringed-together for .Vegas website
 
-Changes 2016-12-16 - James Farthing
-+ fix mobile menu
-+ update images
-+ update styling to V8 standards
-
-Changes 2016-12-05 - James Farthing
+Changes 2017-01-10 - James Farthing
 + initial template build
