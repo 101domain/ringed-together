@@ -588,32 +588,48 @@ body { background-color: @color__body--background; }
 		font-family:'Playfair Display',serif;
 		font-size:.9em;
 		color:#373737; }
-	.location button {
-		border:1px solid #c0bfbf;
-		border-radius:6px;
-		background-color:#fff;
-		font-family:'Lato', sans-serif;
-		font-size:0.9em;
-		color:#e97086;
-		display:flex; 
-		flex-direction:column; 
-		justify-content: center;
-		margin:1em 0;
-		padding:3px 44px 3px 64px;
-		position:relative; }
-		.location button:before {
-			content: "";
-			position:absolute;
-			background-image:image('/images/single-heart.png');
-			background-repeat:no-repeat;
-			background-size:contain;
-			height:20px;
-			width:20px;
-			left:40px; }
-		.location button:hover {
-			background-color:#bd4a5f;
-			color:#e97086; }
-			
+.feature__button {
+	border: none;
+	border-radius: 0;
+	background-color: @color__feature-button--background;
+	font-family:'Lato', sans-serif;
+	font-size:0.9em;
+	color: @color__feature-button--text;
+	display:flex; 
+	flex-direction:column; 
+	justify-content: center;
+	margin:1em 0;
+	padding:3px 44px 3px 64px;
+	position:relative; }
+	.feature__button:before {
+		content: "";
+		position:absolute;
+		background-image:image('/images/single-heart.png');
+		background-repeat:no-repeat;
+		background-size:contain;
+		height:20px;
+		width:20px;
+		left:40px; }
+	.feature__button:hover {
+		background-color: color__feature-button--background--hover;
+		color: @color__feature-button--text; }
+
+.feature__button {
+	background-color: @color__feature-button--background;
+	color: @color__feature-button--text;
+	border: none;
+	border-radius: 0;
+	&:before {
+		content: "";
+		position:absolute;
+		background-image:image('/images/single-heart.png');
+		background-repeat:no-repeat;
+		background-size:contain;
+		height:20px;
+		width:20px;
+		left:40px;
+	}
+}			
 #page-zones__template-widgets__content-wherewhenheading span  {
 	font-family: 'Lato',sans-serif;
 	color:#e97086;
