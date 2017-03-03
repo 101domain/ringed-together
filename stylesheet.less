@@ -595,12 +595,12 @@ body { background-color: @color__body--background; }
 	font-family:'Lato', sans-serif;
 	font-size:0.9em;
 	color: @color__feature-button--text;
-	display:flex; 
-	flex-direction:column; 
+	display: flex; 
+	flex-direction: column; 
 	justify-content: center;
-	margin:1em 0;
-	padding:3px 44px 3px 64px;
-	position:relative; }
+	margin: 1em auto;
+	padding: 10px 44px 10px 64px;
+	position: relative; }
 	.feature__button:before {
 		content: "";
 		position:absolute;
@@ -614,32 +614,6 @@ body { background-color: @color__body--background; }
 		background-color: color__feature-button--background--hover;
 		color: @color__feature-button--text; }
 
-.feature__button {
-	background-color: @color__feature-button--background;
-	color: @color__feature-button--text;
-	border: none;
-	border-radius: 0;
-	&:before {
-		content: "";
-		position:absolute;
-		background-image:image('/images/single-heart.png');
-		background-repeat:no-repeat;
-		background-size:contain;
-		height:20px;
-		width:20px;
-		left:40px;
-	}
-}			
-#page-zones__template-widgets__content-wherewhenheading span  {
-	font-family: 'Lato',sans-serif;
-	color:#e97086;
-	font-size:1.25em;
-	display:flex; 
-	flex-direction:column; 
-	justify-content: center;
-	margin:1em 0;
-	text-align:right;
-	text-transform:uppercase; }
 
 .main-content { background-color: #fff; }
 .main-content > div:first-child { padding-top:3.5em; padding-bottom:1.5em; }

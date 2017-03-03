@@ -64,7 +64,7 @@
         }
     },
     "fontSwatch": {
-       "title": "Playfair & Lato",
+       "title": "Old Standard TT",
         "font1": {
             "font-family": "\"Playfair Display\", Times New Roman, serif",
             "font-size": "36px",
@@ -231,7 +231,7 @@
           "color__feature-strapline--text": "#ffffff",
           "color__feature-button--text": "#ea7186",
           "color__feature-button--background": "#ffffff",
-          "color__feature-button--background--hover": "darken(@color__secondary, 10%)",
+          "color__feature-button--background--hover": "lighten(@color__primary, 90%)",
           "color__feature-button--border": "transparent",
           "color__feature-content--background":"#000000",
 
