@@ -154,7 +154,7 @@
   "styles": {
       "colors": {
           "color__primary": "#e97086",
-          "color__secondary": "@color-swatch2"
+          "color__secondary": "#e97086""
       },
       "site": {
           "color__body--background": "#ffffff",
